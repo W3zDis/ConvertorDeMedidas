@@ -1,0 +1,64 @@
+#valor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 30px;
+  font-size: 30px;
+  border: 0px;
+  box-shadow: 0px 0px 5px;
+  border-radius: 5px;
+  transition: 3s;
+}
+
+#valor:hover {
+  border-radius: 20px;
+  width: 210px;
+  height: 35px;
+  border: 0px;
+}
+
+#botao {
+  position: absolute;
+  left: 42%;
+  top: 53%;
+  border: 0px;
+  border-radius: 9px;
+  background-color: red;
+  color: white;
+  width: 150px;
+  height: 30px;
+  transition: 1s, opacity 1s;
+}
+
+#botao:active {
+  opacity: 30%;
+  border-radius: 16px;
+  width: 140px;
+  height: 25px;
+}
+
+#texto {
+  position: absolute;
+  left: 35%;
+  top: 45%;
+  animation: flutuar 10s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+
+  0%, 100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-40px);
+  }
+}
+
+#texto2 {
+    position: absolute;
+    left: 41%;
+    top: 60%;
+}
